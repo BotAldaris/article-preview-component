@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main class="conteiner">
+      <div class="trim"></div>
+      <div class="card">
+        <div class="description">
+          <h1 class="description__title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="description__text">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <div class="userinfo">
+          <div class="userinfo__infos">
+            <img
+              class="userinfo__avatar"
+              src="./images/avatar-michelle.jpg"
+              alt="Michelle avatar"
+            />
+            <div class="userinfo__namedate">
+              <h2 class="userinfo__name">Michelle Appleton</h2>
+              <p>28 Jun 2020</p>
+            </div>
+          </div>
+          <div class="dialog hidden" id="dialog">
+            <h3 class="dialog__title">Share</h3>
+            <a href="#" aria-label="Share via Facebook">
+              <img
+                src="./images/icon-facebook.svg"
+                alt="facebook icon"
+                width="20"
+                height="20"
+              />
+            </a>
+            <a href="#" aria-label="Share via Twitter">
+              <img
+                src="./images/icon-twitter.svg"
+                alt="Twitter icon"
+                width="20"
+                height="17"
+              />
+            </a>
+
+            <a href="#" aria-label="Share via Pinterest">
+              <img
+                src="./images/icon-pinterest.svg"
+                alt="Pinterest icon"
+                width="20"
+                height="20"
+              />
+            </a>
+          </div>
+          <button class="share">
+            <img class="share__icon" src="./images/icon-share.svg" alt="share" />
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
